@@ -17,7 +17,7 @@ local gradients (aka _sub_-gradients) independently and then
 collectively synchronizing gradients using the AllReduce primitive. In
 HPC terminology, this model of execution is called _Single Program
 Multiple Data_ or SPMD since the same application runs on all
-application but each one operates on different portions of the
+workers but each one operates on different portions of the
 training dataset.
 
 # Application process topologies
